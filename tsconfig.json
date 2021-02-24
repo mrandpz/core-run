@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "ES6",
+		"module": "esnext",
+		"jsx": "react",
+		"lib": ["ES2015","ES2016","DOM"],
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"paths": {
+			"core-fe/*": ["src/core-fe/*"],
+			"type/*": ["src/type/*"],
+			"service/*": ["src/service/*"],
+			"pages/*": ["src/pages/*"],
+			"hooks/*": ["src/hooks/*"],
+		}
+	},
+	"types": ["node"],
+	"exclude": [
+		"node_modules"
+	],
+	"include": ["src/**/*","types/**/*"],
+}
